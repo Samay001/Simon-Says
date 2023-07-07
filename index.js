@@ -72,7 +72,7 @@ function checkAnswer(currentLevel)
     else
     {
         playSound("wrong");
-        $("h1").text("Game is over enter any key to restart");
+        $("h1").text("Game over enter any key to restart");
         $("body").addClass("game-over");
 
         setTimeout(function() {
